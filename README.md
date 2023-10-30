@@ -1,2 +1,2 @@
 # IT2101-SaleApp03
-Demo
+Demo Project for Modern Technologies Course
