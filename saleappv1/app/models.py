@@ -16,7 +16,7 @@ class Product(db.Model):
     name = Column(String(50), nullable=True)
     price = Column(Float, default=0)
     image = Column(String(100),
-                   default='https://res.cloudinary.com/dxxwcby8l/image/upload/v1688179242/hclq65mc6so7vdrbp7hz.jp')
+                   default='https://res.cloudinary.com/dxxwcby8l/image/upload/v1688179242/hclq65mc6so7vdrbp7hz.jpg')
     active = Column(Boolean, default=True)
     category_id = Column(Integer, ForeignKey(Category.id), nullable=False)
 
